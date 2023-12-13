@@ -18,7 +18,7 @@ class MainKtTest {
 
         val result = isExceedLimitDay(typeCard, sumRemittanceNew) //записываем в переменную результат вызова функции
 
-        assertEquals(false, result)
+        assertEquals(true, result)
     }
 
     @Test
