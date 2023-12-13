@@ -6,7 +6,7 @@ fun main() {
 }
 
 //проверяем входит ли сумма переводов в лимит в сутки
-fun isExceedLimitDay(typeCard: String, sumRemittanceNew: Int1): Boolean {
+fun isExceedLimitDay(typeCard: String, sumRemittanceNew: Int): Boolean {
     return when (typeCard) {
         "MasterCard", "Maestro", "Visa", "Мир" -> if (sumRemittanceNew in 0..150_000) true else false
         "VK Pay" -> if (sumRemittanceNew in 0..15_000) false else true
