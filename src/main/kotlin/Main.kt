@@ -1,5 +1,5 @@
 fun main() {
-    val typeCard = "MasterCard"
+    val typeCard = "MasterCard" //тип карты
     val sumRemittanceMonthAgo = 3_000_00
     val sumRemittanceNew = 120_000
     printSumRemmittance(typeCard, sumRemittanceMonthAgo, sumRemittanceNew) //расчет комиссии
